@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./decor.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">Captcha Generator</div>
+        <br>
+        <div class="input_box2">
+            <div id="input_box1" >
+                <div id="captcha" class="captcha yjv"></div>
+                <button onclick="generator()" id="refreshBtn" class="btn">
+                    <img src="./download.jpeg" height="20px" width="20px">
+                </button>
+            </div>
+        </div>
+        <div class="a">
+            <input  class="input_box2 yjv" >
+            <button onclick="validate()" id="check" class="bt">check</button>
+        </div>  
+        <div>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="./captcha.js"></script>
+</body>
